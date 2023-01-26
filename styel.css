@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+body {
+  padding: 100px 100px;
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: blueviolet;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: aliceblue;
+}
+#container {
+  text-align: center;
+  background-color: rgb(5, 126, 150);
+  padding: 80px;
+  margin: 40px 25px;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 50px;
+  position: relative;
+  left: 4rem;
+}
+.inputl {
+  display: inline-block;
+}
+.inp {
+  padding: 20px 20px;
+  margin: 5px;
+  font-size: 30px;
+  border-style: solid;
+  border-width: 5;
+  font-weight: bold;
+  text-align: center;
+}
+label {
+  display: inline-block;
+  font-size: 30px;
+  color: black;
+  padding: 20px 80px;
+  margin-bottom: 20px;
+  background-color: rgb(253, 174, 206);
+}
+
+@media (max-width: 800px) {
+  body {
+    padding: 10px 100px;
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 6rem 0.5rem;
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: aliceblue;
+  margin: 1rem 0rem 3rem 0rem;
+  position: relative;
+  bottom: 3rem;
+}
+  #container {
+    text-align: center;
+    background-color: rgb(5, 126, 150);
+    padding: 0px;
+    margin: 0rem 0rem 1rem -10rem;
+    border-radius: 56px;
+    border-style: solid;
+    border-width: 16px;
+    width: 22rem;
+    height: 31rem;
+  }
+  .inp {
+    padding: 21px 0px;
+    margin: 5px;
+    font-size: 30px;
+    border-style: solid;
+    border-width: 5;
+    font-weight: bold;
+    text-align: center;
+    width: 20rem;
+  }
+
+  label {
+    display: inline-block;
+    font-size: 30px;
+    color: black;
+    padding: 18px 70px;
+    margin-bottom: 20px;
+    background-color: rgb(253, 174, 206);
+    margin: 2rem;
+  }
+}
