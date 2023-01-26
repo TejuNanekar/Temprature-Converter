@@ -47,10 +47,10 @@ label {
 @media (max-width: 800px) {
   body {
     padding: 10px 100px;
-    background-image: url(bg1.jpg);
+   
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: blueviolet;
+    
     margin: 6rem 0.5rem;
 }
 h2 {
